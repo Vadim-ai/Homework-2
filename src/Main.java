@@ -9,7 +9,6 @@ public class Main {
         char agePutin = 63; //годы
         long whenMyCourseIsOver = 10; //месяцы */
 
-
         double firstBoxer = 78.2;
         double secondBoxer = 82.7;
         double weightOfTwoBoxers = firstBoxer + secondBoxer;
