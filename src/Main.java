@@ -94,10 +94,14 @@ public class Main {
         }
         //Lesson 2 : Task 8
         {
-            int a = 123;
-            int b;
-            b = (a / a) + (a / a);
-            System.out.println(b);
+
+                int a = 688;
+                int b;
+                int c;
+                b = (a / 10) % 10;
+
+                System.out.println(b);
+
         }
     }
 }
