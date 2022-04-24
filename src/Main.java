@@ -99,7 +99,6 @@ public class Main {
             int a = 123;
             int b;
             b = (a / a) + (a / a);
-
             System.out.println(b);
         }
 
