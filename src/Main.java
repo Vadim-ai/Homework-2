@@ -92,7 +92,6 @@ public class Main {
             b = ((a * b - a) - b) / a;
             System.out.println(" int a = " + a + " int b = " + b);
         }
-
         //Lesson 2 : Task 8
         {
             int a = 123;
