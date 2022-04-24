@@ -101,7 +101,5 @@ public class Main {
             b = (a / a) + (a / a);
             System.out.println(b);
         }
-
-
     }
 }
