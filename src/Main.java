@@ -68,5 +68,41 @@ public class Main {
         System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceBetweenSalaryMasha + " рублей.");
         System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + differenceBetweenSalaryDenis + " рублей.");
         System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + differenceBetweenSalaryKristina + " рублей.");
+
+        {
+            // Lesson 2 : Task 6
+
+            int a = 12;
+            int b = 27;
+            int c = 44;
+            int d = 15;
+            int e = 9;
+
+            int result;                       //объявил переменную
+            result = a * (b + (c - d * e)); // посчитал, присвоил результат
+            result = -(a * (b + (c - d * e))); // вроде так, инвертировал
+            System.out.println(result);
+        }
+
+        //Lesson 2 : Task 7
+        {
+            int a = 5;
+            int b = 7;
+
+            a = (a * b) / a;
+            b = ((a * b - a) - b) / a;
+            System.out.println(" int a = " + a + " int b = " + b);
+        }
+
+        //Lesson 2 : Task 8
+        {
+            int a = 123;
+            int b;
+            b = (a / a) + (a / a);
+
+            System.out.println(b);
+        }
+
+
     }
 }
